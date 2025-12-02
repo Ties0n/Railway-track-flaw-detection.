@@ -1,4 +1,4 @@
-# 🚆 IoT-Based Railway Track Flaw Detection System — Hybrid (Professional + Academic)
+# 🚆 IoT-Based Railway Track Flaw Detection System
 
 **Authors:** B. Nikhil Sai Venkat et al.
 **Degree Project (B.Tech — ECE)** — Gayatri Vidya Parishad College (2024–25)
@@ -12,7 +12,6 @@ An autonomous IoT-based robotic vehicle that detects cracks and obstacles on rai
 
 ## What’s in this repo
 - `/src/arduino` — Arduino sketch (track_detection.ino) extracted & cleaned from the report
-- `/src/python` — Python helper scripts for alerts and GPS extraction (Termux-friendly examples)
 - `/assets` — Placeholder folder for photos, diagrams, and screenshots (add your images)
 - `/docs/Project_Report.pdf` — Full project report (copy of your PDF)
 - `README.md` (this file) — Hybrid-style documentation
@@ -35,7 +34,6 @@ An autonomous IoT-based robotic vehicle that detects cracks and obstacles on rai
 1. Sensors (IR, Ultrasonic) → Arduino reads values
 2. Arduino integrates GPS (TinyGPS++) to get lat/long
 3. On detection, Arduino triggers GSM SMS with message + Google Maps link
-4. Optionally, a Termux Python script can read serial/GPS and send emails or push notifications
 
 _For the full block diagrams, figures, tests and explanations, see `docs/Project_Report.pdf`._
 
