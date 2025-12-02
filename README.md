@@ -1,11 +1,11 @@
-# 🚆 IoT-Based Railway Track Flaw Detection System
+# 🚆 IOT BASED FLAW DETECTION SYSTEM IN RAILWAY TRACKS
 
 **Authors:** B. Nikhil Sai Venkat et al.
 **Degree Project (B.Tech — ECE)** — Gayatri Vidya Parishad College (2024–25)
 
 ---
 
-## Project overview (executive summary)
+## Project overview
 An autonomous IoT-based robotic vehicle that detects cracks and obstacles on railway tracks in real-time using IR sensors, ultrasonic sensors, GPS, and GSM communication. The system logs precise coordinates and sends instant alerts (SMS/Email/Google Maps link) to maintenance teams. This repository contains code, schematics, and the full project report.
 
 ---
@@ -20,7 +20,7 @@ An autonomous IoT-based robotic vehicle that detects cracks and obstacles on rai
 
 ---
 
-## Key features (technical highlights)
+## Key features 
 - Real-time crack detection using **IR sensors** (reflectance-based)
 - Obstacle detection using **HC-SR04 ultrasonic sensor**
 - Location tagging using **NEO-6M GPS**
@@ -30,16 +30,14 @@ An autonomous IoT-based robotic vehicle that detects cracks and obstacles on rai
 
 ---
 
-## System architecture (brief)
+## System architecture 
 1. Sensors (IR, Ultrasonic) → Arduino reads values
 2. Arduino integrates GPS (TinyGPS++) to get lat/long
 3. On detection, Arduino triggers GSM SMS with message + Google Maps link
 
-_For the full block diagrams, figures, tests and explanations, see `docs/Project_Report.pdf`._
-
 ---
 
-## Quick setup (hardware)
+## Quick setup
 **Required components**
 - Arduino Uno (or compatible)
 - 2× IR sensors (for left/right crack detection)
