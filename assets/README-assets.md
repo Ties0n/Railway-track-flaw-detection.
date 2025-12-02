@@ -1,0 +1,1 @@
+Add project photos, circuit diagrams, and screenshots here. Recommended: 1200x800 PNG/JPEG.
